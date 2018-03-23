@@ -25,6 +25,10 @@
   <property name="windowTitle">
    <string>Калькулятор</string>
   </property>
+  <property name="windowIcon">
+   <iconset resource="img/res.qrc">
+    <normaloff>:/icon/calculator.png</normaloff>:/icon/calculator.png</iconset>
+  </property>
   <property name="styleSheet">
    <string notr="true">background: white;</string>
   </property>
@@ -1071,6 +1075,8 @@
   </widget>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
- <resources/>
+ <resources>
+  <include location="img/res.qrc"/>
+ </resources>
  <connections/>
 </ui>
